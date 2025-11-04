@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import { Header } from "./components/Header.jsx";
+import Header from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { Pagination } from "./components/Pagination.jsx";
-import { SearchFormSection } from "./components/SearchFormSection.jsx";
+import { SearchFormSection } from "./components/SearchForm.jsx";
 import { JobListings } from "./components/JobListings.jsx";
 
 import jobsData from "./data.json";
